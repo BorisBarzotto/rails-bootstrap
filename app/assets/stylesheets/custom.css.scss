@@ -1,0 +1,52 @@
+body {
+  background-image: url("bluelight.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 20%;
+}
+
+.navbar {
+  background-color: black !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.navbar-brand {
+  color: aliceblue;
+  font-weight: bolder;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+.container {
+  margin: 0 auto;
+}
+
+#title {
+  color: hsla(0, 0%, 100%, 0.306);
+  font-size: 50px;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 7px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 4em;
+}
+
+#title span {
+  transition: 0.5s ease-out;
+}
+#title:hover span:nth-child(1) {
+  margin-right: 5px;
+}
+#title:hover span:nth-child(1):after {
+  content: "-";
+}
+
+#title:hover span {
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+}
